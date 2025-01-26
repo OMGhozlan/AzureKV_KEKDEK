@@ -2,6 +2,9 @@
 
 This project is a Flask application that securely handles customer feedback using Azure Key Vault for encryption. It allows users to submit feedback, which is then encrypted before being stored in a database. The application provides endpoints for submitting and retrieving feedback, ensuring that sensitive information such as email addresses and contact numbers are protected through encryption.
 
+> [!TIP]
+> This is a demo project for playing with Azure Key Vaults and the Azure library
+
 ## Features
 - Securely encrypts customer feedback using Azure Key Vault.
 - Provides RESTful API endpoints for submitting and retrieving feedback.
